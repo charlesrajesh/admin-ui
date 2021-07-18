@@ -1,0 +1,125 @@
+.userTable{
+  margin: 5%;
+}
+.userTable thead tr:first-child {
+  background: #e8eefd 0% 0% no-repeat padding-box;
+}
+
+.userTable tr th,
+.userTable tr td {
+  margin: 0;
+  padding: 4px 4px;
+  vertical-align: middle;
+  height: 36px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.userTable .searchBar {
+  width: 80%;
+  height: 32px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #bfc4db;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin: 20px 10%;
+}
+
+.userTable input.edit-input {
+  width: 90%;
+  height: 28px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #bfc4db;
+  border-radius: 4px;
+}
+
+.userTable img {
+  width: 25px;
+  height: 25px;
+}
+
+.userTable .sort_icon {
+  width: 15px;
+  height: 15px;
+}
+
+.pagination {
+  margin: 2rem auto;
+  width: 20%;
+}
+
+.pagination button {
+  margin: 0 10px;
+}
+
+.pagination button:hover {
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+}
+
+.pagination .page-number {
+  color: #7a9bf5;
+  border: none;
+  background-color: #ffffff !important;
+  font-weight: bold;
+}
+
+.pagination .page-number.current {
+  color: #2c5de2;
+  background-color: #dde2f1 !important;
+  border-radius: 45px !important;
+  width: 40px !important;
+}
+
+.pagination .quick-page-access {
+  background-color: #ffffff !important;
+  border: none;
+  color: #7a9bf5;
+}
+
+.userTable .form-group {
+  margin-bottom: 0rem;
+}
+
+.userTable tr th:nth-child(1),
+.userTable tr td:nth-child(1) {
+  width: 10% !important;
+}
+
+.userTable tr th:nth-child(2),
+.userTable tr td:nth-child(2) {
+  width: 30% !important;
+}
+
+.userTable tr th:nth-child(3),
+.userTable tr td:nth-child(3) {
+  width: 40% !important;
+}
+
+.userTable tr th:nth-child(4),
+.userTable tr td:nth-child(4) {
+  width: 10% !important;
+}
+
+.userTable tr th:nth-child(5),
+.userTable tr td:nth-child(5) {
+  width: 10% !important;
+}
+
+@media (max-width: 900px) {
+  .userTable{
+    overflow-x: scroll;
+    padding: 10px !important;
+    margin: 10px !important;
+  }
+  .userTable .table {
+    width: 800px !important;
+  }
+  .userTable .searchBar {
+    width: 700px !important;
+  }
+}
